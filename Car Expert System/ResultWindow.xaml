@@ -1,0 +1,14 @@
+﻿<Window x:Class="Car_Expert_System.ResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Car_Expert_System"
+        mc:Ignorable="d"
+        Title="Car Expert System" Height="350" Width="525" ResizeMode="CanMinimize" Background="#FF323232" WindowStartupLocation="CenterScreen" Visibility="Visible">
+	<Grid>
+		<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Car Expert System" VerticalAlignment="Top" Foreground="#FFFDFDFD" FontSize="24" Width="499" TextAlignment="Center"/>
+		<TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="165" Width="499" FontSize="14"/>
+		<Button x:Name="backToMenuButton" Style="{StaticResource ButtonStyle1}" Content="Back to Menu" HorizontalAlignment="Left" Margin="210,250,0,0" VerticalAlignment="Top" Width="100" Height="26" Foreground="White" Click="backToMenuButton_Click"/>
+	</Grid>
+</Window>
