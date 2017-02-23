@@ -45,7 +45,7 @@ namespace Car_Expert_System
 
 				string selectCommandText = "SELECT * FROM car_es_table"; // sql command
 
-				using (SqlConnection sqlConn = new SqlConnection("Data Source=car-es-server.database.windows.net;Initial Catalog=car-es-db;User ID=car-es-admin;Password=Raystar15"))
+				using (SqlConnection sqlConn = new SqlConnection("Data Source=car-es-server.database.windows.net;Initial Catalog=car-es-db;User ID=car-es-admin;Password=*********"))
 				{
 					sqlConn.Open();
 
